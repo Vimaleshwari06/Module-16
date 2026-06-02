@@ -27,12 +27,25 @@ To write a Python program to construct an **AVL tree**, balance it, and print th
 
 ## PYTHON PROGRAM
 ```
-ENTER YOUR CODE
+Name : Vimaleshwari S
+Reg No : 212223060304
+
+from TreeAVL.AVL import AVL
+
+def getDictTree(self):
+ return self.dict_tree
+
+def Construct_AVL(L):
+  tree = AVL(L)
+  print("AVL Tree Before Balancing\n",getDictTree(tree))
+  tree.BalanceTree()
+  print("AVL Tree After Balancing\n",getDictTree(tree))
 ```
 
 ## OUTPUT
-```
-```
+
+<img width="1138" height="316" alt="image" src="https://github.com/user-attachments/assets/a442ab5d-9fdc-4390-9b83-397911bb9c7c" />
 
 ## RESULT
 
+Thus,a Python program to construct an AVL tree, balance it, and print the nodes before and after balancing using the appropriate packages and built-in function is successfully executed.
